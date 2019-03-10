@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: rgth
 email: marco@rougeth.com
-description: "Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International license."
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "rgth.co" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /blog/:title:output_ext
+permalink: /blog/:title
 #twitter_username: marcorougeth
 #github_username: rougeth
 
