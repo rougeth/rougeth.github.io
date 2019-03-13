@@ -3,7 +3,6 @@ layout: post
 title: 'Documentação do Python em Português: Cenário Atual'
 ---
 
-# Documentação do Python em Português: Cenário Atual
 Há um bom tempo venho pensando em como melhorar o atual cenário da tradução da documentação do Python para português. Inclusive, já comecei algumas iniciativas para tentar facilitar e melhorar o processo, mas nada promissor. Dessa vez, para não perder o fio da meada pretendo deixar tudo registrado, fazendo uma série de blog posts com o que encontrar pela frente. Para começar, quero falar do estado atual da tradução da documentação em português.
 
 ---
