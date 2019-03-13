@@ -6,7 +6,7 @@ permalink: /posts/creating-a-django-model-instance-in-the-past/
 categories: django python
 ---
 
-In Django, if you want to save the date an instance was created and/or updated, you can use DateTimeField with the flags `auto_now_add` or r`auto_now`. They automatically set the field to now every time the object is created and saved, respectively. And it's common to have tasks that depends on the date a specific object was created/updated.
+In Django, if you want to save the date an instance was created and/or updated, you can use DateTimeField with the flags `auto_now_add` or `auto_now`. They automatically set the field to now every time the object is created and saved, respectively. And it's common to have tasks that depends on the date a specific object was created/updated.
 
 For example, I have an Invoice model that has a paid flag to indicate if it was paid or not and a `updated_at` field that tells me the last time that invoice was updated, using `auto_now` flag (every time an invoice is saved, the `updated_at` field is updated with the current time):
 
