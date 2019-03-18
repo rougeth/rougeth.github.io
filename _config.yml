@@ -17,7 +17,7 @@ title: rgth
 email: marco@rougeth.com
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "rgth.co" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rgth.co" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:title
 #twitter_username: marcorougeth
 #github_username: rougeth
