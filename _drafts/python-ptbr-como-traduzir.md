@@ -6,17 +6,18 @@ title: 'Documentação do Python em Português: Como traduzir?'
 
 Há um bom tempo venho pensando em como melhorar o atual cenário da tradução da documentação do Python para português. Inclusive, já comecei algumas iniciativas para tentar facilitar e melhorar o processo, mas nada promissor. Dessa vez, para não perder o fio da meada pretendo deixar tudo registrado, fazendo uma série de blog posts com o que encontrar pela frente.
 
-Clique no link abaixo para ler o primeiro texto sobre a documentação em português. Nele mostro uma visão geral sobre os processos, as ferramentas usadas, comunidade e etc.
+Os links abaixo são os dois primeiros textos sobre a documentação em português que escrevi. Neles mostro uma visão geral sobre os processos de tradução, ferramentas usadas, comunidade e etc e sobre o progresso já feito até aqui.
 
+- [Documentação do Python em Português: O que já foi traduzido?](/blog/python-ptbr-traduzido)
 - [Documentação do Python em Português: Cenário Atual](/blog/python-ptbr-cenario-atual)
 
 ---
 
 ## Antes de começar
 
-Antes de qualquer coisa, recomendo entrar no grupo **@pybr_i18n** no Telegram. Caso você tenha algum problema com as ferramentas usadas ou dúvidas enquanto estiver traduzindo, você encontrará apoio da comunidade por lá.
+Antes de qualquer coisa, recomendo entrar no grupo **@pybr_i18n** no [Telegram](https://telegram.org/). Caso você tenha algum problema com as ferramentas usadas ou dúvidas enquanto estiver traduzindo, você encontrará apoio da comunidade por lá.
 
-Para começar a traduzir, o primeiro passo é [criar uma conta]() no Transifex, ferramenta que a comunidade no Brasil usa para traduzir a documentação do Python.
+Para começar a traduzir, o primeiro passo é [criar uma conta](https://www.transifex.com/signup/) no Transifex, ferramenta que a comunidade no Brasil usa para traduzir a documentação do Python.
 
 Com a conta criada, é necessário solicitar acesso ao time de tradução. Para isso, siga os passos abaixo:
 1. Acesse a página do time [clicando aqui]();
@@ -26,7 +27,7 @@ Com a conta criada, é necessário solicitar acesso ao time de tradução. Para 
 
 Após solicitar acesso, você deverá receber uma mensagem de confirmação e aguardar algum coordenador aceitar as novas inscrições. Esse processo tende a ser rápido, mas como é manual, pode demorar algumas horas.
 
-![]({{ site.url }}/assets/python-ptbr-como-traduzir/transifex-novo-cadastro.jpg)
+![Mensagem de confirmação de tradução]({{ site.url }}/assets/python-ptbr-como-traduzir/transifex-novo-cadastro.jpg)
 
 
 ## O que traduzir?
@@ -39,7 +40,7 @@ Para facilitar na busca das seções que precisam ser traduzidas, busque por `li
 
 ## Como traduzir?
 
-Ao escolher uma seção para traduzir, você verá todos os recursos (palavras, frases, títulos, etc) que precisam ser traduzidos. Para enviar uma tradução de um dos recursos é simples, basta digitar a tradução e clique em `Save Translation`. 
+Ao escolher uma seção para traduzir, você verá todos os recursos (palavras, frases, títulos, etc) que precisam ser traduzidos. Para enviar uma tradução de um dos recursos é simples, basta digitar a tradução e clique em `Save Translation`.
 
 No exemplo abaixo, na seção `library-asyncio`, escolhi traduzir o trecho `Hello World!`, para isso foi necessário apenas digitar a tradução no campo de texto e clicar no botão `Save Translation`.
 
@@ -55,4 +56,4 @@ Não se preocupe com as revisões agora, como temos um volume muito grande de tr
 
 ---
 
-Se você tem alguma sugestão ou interesse em saber mais sobre a tradução da documentação do Python para português brasileiro, não deixe de ler o outros textos que escrevi. Junte-se ao grupo no Telegram.
+Se você tiver sugestões ou quiser saber sobre a tradução da documentação do Python para português brasileiro, entre em contato.
