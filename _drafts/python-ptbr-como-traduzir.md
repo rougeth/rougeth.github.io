@@ -48,12 +48,13 @@ No exemplo abaixo, na seção `library-asyncio`, escolhi traduzir o trecho `Hell
 
 Como nem todas as traduções são simples que nem o exemplo, você pode precisar de ajuda com alguns trechos mais complexos. Para isso, as abas de contexto, sugestões e glossário podem ajudar com informações como, por exemplo, de onde aquele trecho pertence na documentação ou sugestão de tradução baseada nas já existentes.
 
-Porém, priorize sempre os trechos mais simples e rápidos de se traduzir. O volume ainda é muito grande e ainda temos muitos casos como "Hello World!" na documentação.
+Porém, **priorize sempre os trechos mais fáceis e simples** de se traduzir. O volume ainda é muito grande e ainda temos muitos casos como "Hello World!" na documentação.
 
-## E como revisar?
+### Mas e como revisar?
 
-Não se preocupe com as revisões agora, como temos um volume muito grande de trechos não traduzidos e o foco atual é chegarmos num nível em que possamos publicar a tradução no site oficial.
+Como ainda temos muito o que traduzir, por enquanto não precisamos nos preocupar com revisões. Porém, mesmo que o processo de revisar seja mais simples que de traduzir, o volume de textos para revisar é o mesmo, então no próximo texto vou falar um pouco sobre as ferramentas que temos para nos auxiliar.
 
 ---
 
-Se você tiver sugestões ou quiser saber sobre a tradução da documentação do Python para português brasileiro, entre em contato.
+Se você tiver sugestões ou quiser saber mais sobre a tradução da documentação do Python para português brasileiro, não deixe de entrar em contato. Ainda temos muito espaço para melhorias em relação a processos e ferramentas.
+
