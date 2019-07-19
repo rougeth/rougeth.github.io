@@ -36,7 +36,7 @@ Acessando a página de tradução para português, é possível ver a lista de s
 
 Para filtrar as seções que precisam ser traduzidas, busque por `library--`, conforme imagem abaixo:
 
-![]({{ site.url }}/assets/python-ptbr-como-traduzir/transifex-library.jpg)
+![Página listando as seções disponíveis para tradução no Transifex]({{ site.url }}/assets/python-ptbr-como-traduzir/transifex-library.jpg)
 
 ## Como traduzir?
 
@@ -44,7 +44,7 @@ Ao escolher uma seção para traduzir, você verá todos os recursos (palavras, 
 
 No exemplo abaixo, na seção `library-asyncio`, escolhi traduzir o trecho `Hello World!`, para isso foi necessário apenas digitar a tradução no campo de texto e clicar no botão `Save Translation`.
 
-![]({{ site.url }}/assets/python-ptbr-como-traduzir/transifex-como-traduzir.jpg)
+![Página de tradução no transifex]({{ site.url }}/assets/python-ptbr-como-traduzir/transifex-como-traduzir.jpg)
 
 Como nem todas as traduções são simples que nem o exemplo acima, você pode precisar de ajuda com alguns trechos mais complexos. Para isso, as abas de contexto, sugestões e glossário podem ajudar com informações extras como, por exemplo, de onde aquele trecho pertence na documentação ou sugestão de tradução baseada nas já existentes.
 
@@ -56,10 +56,17 @@ Como ainda temos muito o que traduzir, por enquanto não precisamos nos preocupa
 
 Se você tiver sugestões ou quiser saber mais sobre a tradução da documentação do Python para português, não deixe de entrar em contato. Ainda temos muito espaço para melhorias em relação a processos e ferramentas.
 
-### Progresso
+## Como acompanhar o progresso?
 
-A API do Transifex é limitada em relação as estatísticas que podemos extrair da ferramenta. Portanto não é possível, por exemplo, dizer quem mais vem contribuindo com as traduções.
-Em contra partida, é dá para saber o quanto já foi traduzido e revisado de todas as seções da tradução. Então, criei um bot no Telegram coletando essas informações diariamente e, todo domingo, o bot envia uma mensagem comparando as estatísticas dos últimos 7 dias.
+A API do Transifex é limitada em relação as estatísticas que podemos extrair da ferramenta. Por exemplo, não é possível saber quem já traduziu uma determinada seção ou quem mais vem contribuindo nas últimas semanas.
 
+Em contra partida, dá para saber o quanto já foi traduzido e revisado em todas as seções da tradução. Usando essa informação, criei um robô no Telegram que coleta os dados diariamente e, todo domingo, envia uma mensagem comparando as estatísticas dos últimos 7 dias.
+
+
+![Mensagem do bot no Telegram com estatísticas]({{ site.url }}/assets/python-ptbr-como-traduzir/bot.png)
+
+---
+
+Espero que com esse texto, fique um pouco mais claro como dar o primeiro passo para contribuir com a tradução da documentação do Python para português. E lembre-se, ideias e sugestões são sempre bem vindas.
 
 **o/**
