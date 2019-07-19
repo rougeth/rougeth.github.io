@@ -42,7 +42,7 @@ Para filtrar as seções que precisam ser traduzidas, busque por `library--`, co
 
 Ao escolher uma seção para traduzir, você verá todos os recursos (palavras, frases, títulos, etc) que precisam ser traduzidos. Para enviar uma tradução de um dos recursos é simples, basta digitar a tradução e clique em `Save Translation`.
 
-No exemplo abaixo, na seção `library-asyncio`, escolhi traduzir o trecho `Hello World!`, para isso foi necessário apenas digitar a tradução no campo de texto e clicar no botão `Save Translation`.
+No exemplo abaixo, na seção `library-asyncio`, escolhi traduzir o trecho `Hello World!`. Para isso foi necessário apenas digitar a tradução no campo de texto e clicar no botão `Save Translation`.
 
 ![Página de tradução no transifex]({{ site.url }}/assets/python-ptbr-como-traduzir/transifex-como-traduzir.jpg)
 
@@ -52,9 +52,7 @@ Porém, **priorize sempre os trechos mais fáceis e simples** de se traduzir. O 
 
 ### Mas e como revisar?
 
-Como ainda temos muito o que traduzir, por enquanto não precisamos nos preocupar com revisões. Porém, mesmo que o processo de revisar seja mais simples que de traduzir, o volume de textos é o mesmo. No próximo texto vou falar um pouco sobre as ferramentas que temos para nos auxiliar a revisar as tradução já feitas da documentação.
-
-Se você tiver sugestões ou quiser saber mais sobre a tradução da documentação do Python para português, não deixe de entrar em contato. Ainda temos muito espaço para melhorias em relação a processos e ferramentas.
+Como ainda temos muito o que traduzir, por enquanto não precisamos nos preocupar com revisões. Porém, mesmo que o processo de revisar seja mais simples que de traduzir, o volume é o mesmo. No próximo texto vou falar um pouco sobre as ferramentas que temos para nos auxiliar a revisar as tradução já feitas da documentação.
 
 ## Como acompanhar o progresso?
 
