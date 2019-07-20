@@ -20,7 +20,7 @@ A comunidade de tradução mais ativa está no grupo **@pybr_i18n**, no aplicati
 Para começar a traduzir, o primeiro passo é [criar uma conta](https://www.transifex.com/signup/) no Transifex, ferramenta que a comunidade no Brasil usa para traduzir a documentação do Python.
 
 Já com a conta criada, é necessário solicitar acesso ao time de tradução. Para isso, siga os passos abaixo:
-1. Acesse a página do time [clicando aqui]();
+1. Acesse a página do time [clicando aqui](https://www.transifex.com/python-doc/python-newest/dashboard/);
 2. Escolha o projeto `Python`, referente a última versão da documentação;
 3. Clique em `Join Team`;
 4. E por fim, selecione a língua na qual você deseja traduzir e clique em `Join`.
