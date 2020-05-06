@@ -2,6 +2,8 @@
 layout: post
 title: 'Atualizações no i17obot: Novas línguas, projetos e tutoriais'
 date: 2020-05-05 19:16 +0100
+language: pt-br
+translation: /blog/i17obot-updates-languages-projects-tutorial
 ---
 O [i17obot](https://github.com/rougeth/i17obot/) é um robô criado para auxiliar na tradução da documentação oficial do Python para português. Entre as suas funcionalidades, a principal é selecionar um trecho da documentação sem tradução e enviar para seus usuários. Nos últimos dias, tivemos 3 grandes atualizações no robô.
 
