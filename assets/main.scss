@@ -22,6 +22,20 @@ code {
   background: white;
 }
 
+a {
+  color: #0074D9;
+}
+
+.post-content a {
+  text-decoration: #F012BE wavy underline;
+}
+
+.post-content a:hover {
+  color:  #7FDBFF;
+  background: #001f3f;
+  text-decoration: none;
+}
+
 .highlighter-rouge .highlight {
   background: white;
 }
