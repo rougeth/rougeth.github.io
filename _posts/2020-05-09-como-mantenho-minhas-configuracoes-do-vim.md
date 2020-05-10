@@ -2,6 +2,8 @@
 layout: post
 title: Como mantenho minhas configurações do Vim
 date: 2020-05-09 20:11 +0100
+language: pt-br
+translation: /blog/how-do-i-maintaing-my-vim-settings
 ---
 Meu primeiro contato com o editor de texto Vim foi logo quando entrei na faculdade, em uma aula de cálculo há quase 10 anos atrás. Antes da aula começar, um colega, Dirley, que eu ainda não conhecia, estava sentado nas fileiras da frente com o laptop aberto trabalhando em algum projeto.
 
@@ -13,7 +15,7 @@ Até que um dia decidi tentar aprender o que cada configuração fazia e por fim
 
 Neste texto, não vou falar sobre a melhor configuração ou plugin que você deva usar, mas como se organizar para não ficar perdido quando quiser fazer alguma mudança.
 
-### Dividir e conquistar
+## Dividir e conquistar
 
 O `.vimrc` é o arquivo que o Vim procura as configurações do usuário. No meu caso, tenho as configurações divididas em 4 arquivos diferentes dentro da pasta `~/.vim`, com o `.vimrc` servindo apenas como um agregador dos demais arquivos. Essa estrutura de arquivos veio do querido [Humberto Rocha](https://humberto.io/), que muito me ensinou sobre Vim. 
 
@@ -31,7 +33,7 @@ source ~/.vim/plugin_config.vim
 source ~/.vim/atalhos.vim
 ```
 
-### Configurações do Vim
+## Configurações do Vim
 
 Todas as configurações exclusivas do Vim, com exceção dos atalhos, vão no arquivo `config.vim`. Como guia para escolher o que e como configurar o editor, usei bastante a própria [documentação do Vim](https://vimhelp.org/), em particular a seção [options](https://vimhelp.org/options.txt.html#options.txt). Você pode usar a documentação no site [vimhelp.org](https://vimhelp.org), mas se quiser acessá-la de dentro do Vim, aqui vai algumas dicas:
 
@@ -48,7 +50,7 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 
 Confira o restante das minhas configurações em [config.vim](https://github.com/rougeth/dotvim/blob/master/config.vim).
 
-### Plugins
+## Plugins
 
 Todos os *plugins* que uso ficam listados no arquivo `plugins.vim` e são instalados pelo [vim-plug](https://github.com/junegunn/vim-plug). Até a versão 8 do Vim, lançada em 2016, era necessário usar um *plugin*, como o `vim-plug` para instalar outros *plugins*. Como `vim-plug` sempre funcionou comigo, não migrei para a opção nativa.
 
@@ -74,11 +76,11 @@ Plug 'airblade/vim-gitgutter'
 call plug#end()
 ```
 
-### Configurações dos plugins
+## Configurações dos plugins
 
 Cada *plugin* permite uma série de configurações diferentes, como por exemplo, os atalhos que ativam o `ctrlp.vim` ou `NERDTree`. Na época, optei por separar as configurações em arquivo um arquivo exclusivo, `plugin_config.vim`. Hoje, acredito que faria diferente, apenas o arquivo `plugins.vim` seria suficiente para gerenciá-los e configurá-los.
 
-### Atalhos
+## Atalhos
 
 Já o arquivo `atalhos.vim` teve sua última mudança há 5 anos atrás, na época em que reorganizei o repositório. Me limitei a poucas customizações, pois os atalhos do próprio Vim, apesar de difíceis de aprender, te permite ser bastante eficiente. Além disso, não ser muito criativo nos atalhos facilita quando é preciso usar o Vim em um computador sem as suas configurações, seja acessando um servidor remotamente ou pareando com alguém.
 
