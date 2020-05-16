@@ -4,7 +4,10 @@ title: How do I maintaing my Vim settings
 language: en
 translation: /blog/como-mantenho-minhas-configuracoes-do-vim
 date: 2020-05-10 15:21 +0100
+cover: /assets/vim-settings-tools.jpg
+cover_description: Hand Tools
 ---
+
 My first contact with the text editor Vim was when I've just started college, in a Math class almost 10 years ago. Before the class started, a classmate, Dirley, that I didn't meet yet, was sitting in the front rows with his laptop open working on some project.
 
 Black screen divided in half, at one side texts with coloured fonts and the other lines and more lines scrolling across the screen. Whenever Dirley pressed some keys, everything moved and changed. He was in the Matrix! If he offered me a red pill, I'd accept without thinking twice!
@@ -94,7 +97,7 @@ imap jj <esc>
 
 Every file I talked about can be found on [this repository](https://github.com/rougeth/dotvim). You can follow the README.me instructions to install them or you fork it and add your settings.
 
-![Meme Fork All The Things](/assets/fork-all-the-things.jpg)
+![Meme Fork All The Things](/assets/vim-settings-fork-all-the-things.jpg)
 
 Remember, to exit Vim: `:q`
 

@@ -4,6 +4,8 @@ title: Como mantenho minhas configurações do Vim
 date: 2020-05-09 20:11 +0100
 language: pt-br
 translation: /blog/how-do-i-maintaing-my-vim-settings
+cover: /assets/vim-settings-tools.jpg
+cover_description: Hand Tools
 ---
 Meu primeiro contato com o editor de texto Vim foi logo quando entrei na faculdade, em uma aula de cálculo há quase 10 anos atrás. Antes da aula começar, um colega, Dirley, que eu ainda não conhecia, estava sentado nas fileiras da frente com o laptop aberto trabalhando em algum projeto.
 
@@ -94,7 +96,7 @@ imap jj <esc>
 
 Todos os arquivos estão no [Github](https://github.com/rougeth/dotvim). Você pode seguir as instruções no `README.md` para instalar ou criar um *fork* com as suas próprias configurações.
 
-![Meme Fork All The Things](/assets/fork-all-the-things.jpg)
+![Meme Fork All The Things](/assets/vim-settings-fork-all-the-things.jpg)
 
 E lembre-se, para sair do Vim: `:q`
 
